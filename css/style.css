@@ -1,0 +1,49 @@
+body{
+    margin: 0
+}
+
+h1{
+    font-size : 100px ; /* On définit la taille du texte avec font-size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* On définit la talle du caractère */
+    font-style: italic ; /* On met le texte en italique */
+    font-weight: bold ; /* On met le texte en gras */
+    text-decoration : underline ; /* On souligne le texte */
+    text-align : center ; /* On centre le titre */
+    color:rgb(196, 166, 224) /* On définit la couleur */
+}
+
+li{
+    display: inline
+}
+
+p{
+    text-align : justify;
+    background-color: rgb(167, 153, 159); /* On change la couleur de l'arrière plan */
+    height: 500px ; /* Hauteur du paragraphe */
+    width: 50% ; /* Largeur du paragraphe */
+    padding: 30px 0 0 0 ;
+    margin : auto ;
+    box-sizing: border-box; /* Les dimensions définient sont de bordure à bordure */
+}
+
+article{
+    background-color: rgb(128, 108, 131);
+    width:70% /*Largeur de l'article */
+}
+
+html{
+    background-color: rgb(235, 220, 226);
+}
+
+header {
+    background-image: url("../images/ROUGE\ ROBE.jpg");
+    background-repeat : no-repeat;
+    background-position : left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    width: 100xp ;
+    height: auto
+}

@@ -1,0 +1,146 @@
+li{
+    list-style-type: none; /* On ne veut pas de puces */
+}
+
+ul{
+    display:flex; 
+    padding-left: 0;
+    justify-content: space-around;
+    margin:0;
+ 
+}
+
+nav{
+    background-color: rgb(247, 240, 244);
+
+}
+a{
+    display: inline-block;
+    padding: 20px 15px;
+    color: rgb(207, 34, 173);
+    text-decoration:none;
+}
+
+a:hover{
+    background-color: rgb(233, 22, 134);
+    color:rgb(255, 253, 253);
+}
+
+body{
+    margin: 0%;
+}
+
+header{
+    background-image: url(../images/phone.jpg);
+    height: 70vh;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, header p{
+    color: white (255, 255, 255);
+    text-align: center;
+}
+
+P{
+    text-align: justify;
+}
+
+header div {
+    padding-bottom: 20px;
+}
+
+main > section{
+    padding: 50px 250px;
+    background-color: cornsilk;
+}
+
+h2, h3{
+    text-align : center
+}
+
+.section-paire{
+    background-color: rgb(97, 21, 84);
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+#div-droite {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left:15px
+
+}
+
+#section-2-2 {
+    display: flex;
+}
+
+#img-container img{
+    width:25%;
+    height:auto;
+    box-sizing: border-box;
+    padding:5px
+}
+
+#img-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input:not([type=radio]), textarea{
+    width:100%;
+    box-sizing:border-box;
+    padding:12px 20px;
+}
+
+form{
+    width: 50%
+}
+
+#form-container{
+    display:flex;
+    justify-content: center;
+}
+
+#input-container{
+display:flex;
+justify-content:space-between;
+}
+
+#input-container div{
+    width:49%
+}
+
+form > div, fieldset{
+    margin-bottom: 8px;
+}
+
+input[type=submit]{
+    background-color: rgb(255, 220, 245);
+    cursor: pointer
+}
+
+input[type=submit]:hover{
+    background-color: rgb(245, 26, 245);
+}
+
+@media(max-width:1400px){
+    main>section{
+        padding:50px 125px;
+    }
+}
+
+@media(max-width:1200px){
+#img-container img{
+    width: 33.333333%
+    }
+}
+
+
+}

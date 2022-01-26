@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+   <form>
+       <div>
+        <label for="Nom"> nom:</label>
+        <input type="text" id="Nom" name="Nom" placeholder="Ecrivez votre nom">
+        </div>
+
+        <div>
+        <label for="Message">Message </label>
+        <textarea name=" message=" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+        <label for="select">Liste déroulante:</label>
+        <select name="select" id="select">
+        </div>
+
+        <optgroup label="label1">
+            <option value="value1">Valeur1</option>
+            <option value="value2">Valeur2</option>
+            <option value="value3">Valeur3</option>
+        </optgroup>
+
+        <optgroup label="label2">
+            <option value="value4">Valeur4</option>
+            <option value="value5">Valeur5</option>
+            <option value="value6">Valeur6</option>
+        </optgroup>
+        
+        </select>
+    
+        <div>
+            Choix Multiples: <br>
+            <input type="checkbox" id="choix1" name="choix1">
+            <label for="choix1">Choix 1</label>
+
+            <input type="checkbox" id="choix2" name="choix2">
+            <label for="choix2">Choix 2</label>
+
+            <input type="checkbox" id="choix3" name="choix3">
+            <label for="choix3">Choix 3</label>
+        </div>
+        
+        <div>
+            Choix Unique: <br/>
+            <input type="radio" name="choix" value="1" id="choixUnique1"/>
+            <label for="choixUnique1" >Choix 1 </label>
+
+            <input type="radio" name="choix" value="2" id="choixUnique2"/>
+            <label for="choixUnique2" >Choix 2 </label>
+
+            <input type="radio" name="choix" value="3" id="choixUnique3"/>
+            <label for="choixUnique3" >Choix 3 </label>
+
+        </div>
+        <input type="submit" value="Envoyer">
+   </form> 
+</body>
+</html>
